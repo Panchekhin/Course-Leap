@@ -1,8 +1,11 @@
 @import "_null.scss";
 @import "_header";
 @import "_fonts";
+@import "_section";
 
  *  {
 	overscroll-behavior: none;
+	width: 100%;
  }
+
  

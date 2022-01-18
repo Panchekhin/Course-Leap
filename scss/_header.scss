@@ -1,5 +1,4 @@
 .header {
-   width: 100%;
    background-color: #252B42;
    display: flex;
  }
@@ -50,7 +49,7 @@
    letter-spacing: 0.2px;
  }
  .bar__nav li a:hover {
-  text-decoration: underline #FFFFFF;
+  text-decoration: 2px underline #FFFFFF;
  }
 
 //кнопки на панели навигации
@@ -76,7 +75,7 @@
    margin-right: 45px;
  }
  .button__log:hover {
-  text-decoration: underline #FFFFFF;
+  text-decoration: 2px underline #FFFFFF;
  }
 
  .button_jus {
@@ -98,7 +97,7 @@
    background-position: right 25px center;
  }
  .button_jus:hover {
-  text-decoration: underline #FFFFFF;
+  text-decoration: 2px underline #FFFFFF;
  }
 
 // нижняя часть header-а
@@ -168,7 +167,7 @@
   margin-right: 10px;
 }
 .button__gqn:hover {
-  text-decoration: underline #FFFFFF;
+  text-decoration: 2px underline #FFFFFF;
 }
 .button_lm {
   width: 165px;
@@ -186,7 +185,7 @@
   color: #23A6F0;
 }
 .button_lm:hover {
-  text-decoration: underline #23A6F0;
+  text-decoration: 2px underline #23A6F0;
 }
 
 //правая часть низа с картинками
