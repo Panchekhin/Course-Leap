@@ -795,7 +795,9 @@ h1, h2, h3, h4, h5, h6 {
 }
 
 .main__content-packages {
-  display: inline-block;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
   width: 1045px;
   height: 678px;
   margin: 0 2.5px 160px 2.5px;
@@ -803,12 +805,16 @@ h1, h2, h3, h4, h5, h6 {
 }
 
 .product__card-left {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
   -webkit-box-align: center;
       -ms-flex-align: center;
           align-items: center;
   width: 348px;
   height: 678px;
   margin-right: 20px;
+  border: 0.5px solid red;
 }
 
 .card__field-left {
@@ -950,7 +956,9 @@ h1, h2, h3, h4, h5, h6 {
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
-  text-align: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
   width: 50px;
   height: 26px;
   background: #252B42;
@@ -987,6 +995,184 @@ h1, h2, h3, h4, h5, h6 {
   line-height: 24px;
   letter-spacing: 0.1px;
   color: #252B42;
+}
+
+.text__description {
+  width: 280px;
+  height: 60px;
+  font-family: Montserrat;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 14px;
+  line-height: 20px;
+  letter-spacing: 0.2px;
+  color: #737373;
+  margin: 0 43px 10px 25px;
+}
+
+.arrow__sales {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  width: 84px;
+  height: 24px;
+  margin: 0 239px 10px 25px;
+}
+
+.arrow_down {
+  width: 16px;
+  height: 16px;
+  margin-right: 10px;
+}
+
+.arrow__text {
+  width: 58px;
+  height: 24px;
+  font-family: Montserrat;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 14px;
+  line-height: 24px;
+  letter-spacing: 0.2px;
+  color: #737373;
+}
+
+.price {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  width: 108px;
+  height: 34px;
+  margin: 0 215px 10px 25px;
+}
+
+.grey__text-p {
+  font-family: Montserrat;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 16px;
+  line-height: 24px;
+  text-align: center;
+  letter-spacing: 0.1px;
+  color: #BDBDBD;
+  margin-right: 5px;
+}
+
+.green__text-p {
+  font-family: Montserrat;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 16px;
+  line-height: 24px;
+  text-align: center;
+  letter-spacing: 0.1px;
+  color: #40BB15;
+}
+
+.frame {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  width: 298px;
+  height: 46px;
+  margin: 0 25px 10px;
+}
+
+.frame img {
+  width: 16px;
+  height: 16px;
+  margin-right: 5px;
+}
+
+.frame p {
+  font-family: Montserrat;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 12px;
+  line-height: 16px;
+  letter-spacing: 0.2px;
+  color: #737373;
+}
+
+.a_clock {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  width: 92px;
+  height: 16px;
+}
+
+.a_waves {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  width: 89px;
+  height: 16px;
+  margin: 0 21px;
+}
+
+.a_chart {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  width: 75px;
+  height: 16px;
+}
+
+.card-button__lm {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  width: 144.14px;
+  height: 44px;
+  border: 1px solid #23A6F0;
+  border-radius: 37px;
+  margin: 0 181px 35px 25px;
+  padding: 10px 20px;
+  background-color: #FFFFFF;
+  cursor: pointer;
+}
+
+.card-button__tittle-lm h6 {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  width: 85px;
+  height: 24px;
+  font-family: Montserrat;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 14px;
+  line-height: 24px;
+  letter-spacing: 0.2px;
+  color: #23A6F0;
+  margin-right: 10px;
+}
+
+.card-button__lm img {
+  width: 9.14px;
+  height: 16px;
+  margin: 14px 20px 14px 0;
+}
+
+.card-button__lm:hover {
+  -webkit-text-decoration: 2px underline #23A6F0;
+          text-decoration: 2px underline #23A6F0;
 }
 
 * {

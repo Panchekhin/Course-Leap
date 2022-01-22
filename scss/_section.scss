@@ -394,7 +394,7 @@ $color-white: #FFFFFF;
    color: #737373;
 }
 .main__content-packages {
-   display: inline-block;
+   display: flex;
    width: 1045px;
    height: 678px;
    margin: 0 2.5px 160px 2.5px;
@@ -402,15 +402,16 @@ $color-white: #FFFFFF;
 }
 //блок с карточками
 .product__card-left {
+   display: flex;
    align-items: center;
    width: 348px;
    height: 678px;
    margin-right: 20px;
+   border: 0.5px solid red;
 }
 .card__field-left {
    display: flex;
    flex-direction: column;
-   
    width: 328px;
    height: 678px;
    background: #FFFFFF;
@@ -517,7 +518,7 @@ $color-white: #FFFFFF;
 }
 .rate {
    display: flex;
-   text-align: center;
+   align-items: center;
    width: 50px;
    height: 26px;
    background: #252B42;
@@ -552,3 +553,142 @@ $color-white: #FFFFFF;
    letter-spacing: 0.1px;
    color: #252B42;
 }
+.text__description {
+   width: 280px;
+   height: 60px;
+   font-family: Montserrat;
+   font-style: normal;
+   font-weight: normal;
+   font-size: 14px;
+   line-height: 20px;
+   letter-spacing: 0.2px;
+   color: #737373;
+   margin: 0 43px 10px 25px;
+}
+.arrow__sales {
+   display: flex;
+   align-items: center;
+   width: 84px;
+   height: 24px;
+   margin: 0 239px 10px 25px;
+}
+.arrow_down {
+   width: 16px;
+   height: 16px;
+   margin-right: 10px;
+}
+.arrow__text {
+   width: 58px;
+   height: 24px;
+   font-family: Montserrat;
+   font-style: normal;
+   font-weight: bold;
+   font-size: 14px;
+   line-height: 24px;
+   letter-spacing: 0.2px;
+   color: #737373
+}
+.price {
+   display: flex;
+   align-items: center;
+   width: 108px;
+   height: 34px;
+   margin: 0 215px 10px 25px;
+}
+.grey__text-p {
+   font-family: Montserrat;
+   font-style: normal;
+   font-weight: bold;
+   font-size: 16px;
+   line-height: 24px;
+   text-align: center;
+   letter-spacing: 0.1px;
+   color: #BDBDBD;
+   margin-right: 5px;
+}
+.green__text-p {
+   font-family: Montserrat;
+   font-style: normal;
+   font-weight: bold;
+   font-size: 16px;
+   line-height: 24px;
+   text-align: center;
+   letter-spacing: 0.1px;
+   color: #40BB15;
+}
+.frame {
+   display: flex;
+   align-items: center;
+   width: 298px;
+   height: 46px; 
+   margin: 0 25px 10px; 
+}
+.frame img {
+   width: 16px;
+   height: 16px;
+   margin-right: 5px;
+}
+.frame p {
+   font-family: Montserrat;
+   font-style: normal;
+   font-weight: normal;
+   font-size: 12px;
+   line-height: 16px;
+   letter-spacing: 0.2px;
+   color: #737373;
+}
+.a_clock {
+   display: flex;
+   width: 92px;
+   height: 16px;
+}
+.a_waves {
+   display: flex;
+   width: 89px;
+   height: 16px;
+   margin: 0 21px;
+}
+.a_chart {
+   display: flex;
+   width: 75px;
+   height: 16px;
+}
+.card-button__lm {
+   display: flex;
+   align-items: center;
+   width: 144.14px;
+   height: 44px;
+   border: 1px solid #23A6F0;
+   border-radius: 37px;
+   margin: 0 181px 35px 25px;
+   padding: 10px 20px;
+   background-color: #FFFFFF;
+   cursor: pointer;
+}
+.card-button__tittle-lm h6{
+   display: flex;
+   align-items: center;
+   width: 85px;
+   height: 24px;
+   font-family: Montserrat;
+   font-style: normal;
+   font-weight: bold;
+   font-size: 14px;
+   line-height: 24px;
+   letter-spacing: 0.2px;
+   color: #23A6F0;
+   margin-right: 10px;
+}
+.card-button__lm img {
+   width: 9.14px;
+   height: 16px;
+   margin: 14px 20px 14px 0;
+}
+.card-button__lm:hover {
+   text-decoration: 2px underline #23A6F0;
+}
+
+//центральная карточка 
+
+
+//правая карточка
